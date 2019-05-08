@@ -2,9 +2,10 @@
 .navbar {
   overflow: hidden;
   background-color: rgb(17, 17, 17);
-  position: relative; /* Set the navbar to fixed position */
+  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  left: 0;
+  width: 100%;
+  z-index: 9;
 }
 
 /* Links inside the navbar */
@@ -30,20 +31,20 @@
 }
 body {
   background-color: rgb(47, 48, 48);
+  font-family: 'Concert One';
 }
 h1 {
   color: yellow;
   position: relative;
   top: 50px;
   text-align: center;
-  font-size: 8vw;
+  font-size: 10vw;
 }
 h2 {
-  color: rgb(0, 183, 255);
+  color: yellow;
   position: relative;
-  Left: 100px;
-  text-align: Left;
-  font-size: 2vw;
+  text-align: center;
+  font-size: 3vw;
 }
 h3 {
   color: rgb(0, 183, 255);
@@ -58,16 +59,20 @@ p {
   text-align: center;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+}
+
 .row {
-  margin-left: 0px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 /* Three columns side by side */
 .column {
-  float: left;
+  float: center;
   width: 12.5%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+  padding: 8px 8px;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -113,4 +118,16 @@ p {
 
 .button:hover {
   background-color: #555;
+}
+
+.icons {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a{
+  padding-left: 80px;
+  padding-right: 80px;
 }
