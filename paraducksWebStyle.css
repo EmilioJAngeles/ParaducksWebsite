@@ -32,7 +32,7 @@ body {
   background-color: rgb(47, 48, 48);
 }
 h1 {
-  color: rgb(246, 250, 1);
+  color: yellow;
   position: relative;
   top: 50px;
   text-align: center;
@@ -57,13 +57,15 @@ p {
   font-size: 2vw;
   text-align: center;
 }
+
 .row {
   margin-left: 0px;
+  align-items: center;
 }
 /* Three columns side by side */
 .column {
   float: left;
-  width: 33.3%;
+  width: 12.5%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -75,10 +77,9 @@ p {
     display: block;
   }
 }
-
 /* Add some shadows to create a card effect */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 /* Some left and right padding inside the container */
@@ -94,7 +95,8 @@ p {
 }
 
 .title {
-  color: grey;
+  color: yellow;
+  font-size: 1vw;
 }
 
 .button {
