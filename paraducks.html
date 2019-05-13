@@ -10,6 +10,7 @@
     </head>
 
     <body>
+        <a name="home"></a>
         <div class="navbar">
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -18,33 +19,36 @@
           <a href="#contact">Contact</a>
         </div>
         <h1>Paraducks</h1>
+        <a name= "about"></a>
         <h2>About</h2>
         <video width="800" height="450" controls>
             <source src="Paraducks_Trailer.mp4" type="video/mp4">
             <source src="Paraducks_Trailer.ogg" type="video/ogg" />
             <source src="Paraducks_Trailer.webm" type="video/webm" />
         </video>
-        <p>Paraducks is a game...</p>
+        <p>Paraducks is a first-person puzzle game where you must create and coordinate <br>
+        time loops, working with youself from the past to solve puzzles in the future! <br>
+        But there's a catch - you must not allow your past iterations see you, as that <br>
+        could create a paradox that threatens to unravel all of time and space. <br>
+        Oh yeah, and you're two ducks piloting a mech suit!</p>
+        <a name= "gallery"></a>
         <h2>Gallery</h2>
         <div class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
               <div class="numbertext">1 / 3</div>
-              <img src="Images/tree.jpg" style="width:50%">
-              <div class="text">Caption Text</div>
+              <img src="Images/tree.jpg" style="width:100%">
             </div>
           
             <div class="mySlides fade">
               <div class="numbertext">2 / 3</div>
-              <img src="Images/tree.jpg" style="width:50%">
-              <div class="text">Caption Two</div>
+              <img src="Images/tree.jpg" style="width:100%">
             </div>
           
             <div class="mySlides fade">
               <div class="numbertext">3 / 3</div>
-              <img src="Images/tree.jpg" style="width:50%">
-              <div class="text">Caption Three</div>
+              <img src="Images/tree.jpg" style="width:100%">
             </div>
           
             <!-- Next and previous buttons -->
@@ -59,6 +63,7 @@
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
           </div>
+        <a name= "team"></a>
         <h2>Team</h2>
         <div class="row">
             <div class="column">
@@ -174,7 +179,7 @@
               </div>
             </div>
         </div>
-        <h2>Contact</h2>
+        <h2><a name= "contact">Contact</a></h2>
         <div class="row">
             <div class="col-sm-4">
                 <a href="https://twitter.com/ParaducksGame?lang=en"> <i class="fab fa-twitter-square" style="font-size:48px;color:rgb(0, 183, 255)"></i><span class="nav-text">@ParaducksGame</a>
@@ -186,5 +191,8 @@
                 <a href="mailto:paraducksgame@gmail.com"> <i class="fas fa-envelope-square" style="font-size:48px;color:rgb(0, 183, 255)"></i><span class="nav-text">paraducksgame@gmail.com </a>
             </div>
         </div>
+      <script>
+      showSlides(slideIndex);  
+      </script>
     </body>
 </html>
