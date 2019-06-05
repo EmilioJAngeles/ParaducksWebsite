@@ -13,7 +13,7 @@
   float: left;
   font-size: 1.5vw;
   display: block;
-  color: #eeff00;
+  color: #FFBE24;
   text-align: center;
   padding: 1vw 1.5vw;
   text-decoration: none;
@@ -22,7 +22,15 @@
 /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
-  color: black;
+  color: rgb(0, 183, 255);
+}
+
+.LogoImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 50px;
 }
 
 /* Main content */
@@ -34,14 +42,14 @@ body {
   font-family: 'Concert One';
 }
 h1 {
-  color: yellow;
+  color: #FFBE24;
   position: relative;
   top: 50px;
   text-align: center;
   font-size: 10vw;
 }
 h2 {
-  color: yellow;
+  color: #FFBE24;
   position: relative;
   top: 20px;
   text-align: center;
@@ -102,7 +110,7 @@ video {
 }
 
 .title {
-  color: yellow;
+  color: #FFBE24;
   font-size: 1vw;
 }
 
@@ -111,7 +119,7 @@ video {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+  color: #FFBE24;
   background-color: #000;
   text-align: center;
   cursor: pointer;
@@ -119,7 +127,8 @@ video {
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #ddd;
+  color: rgb(0, 183, 255);
 }
 
 .icons {
@@ -139,8 +148,8 @@ video {
   vertical-align:middle;
   padding-left: 10px;
   padding-bottom: 30px;
-  color: yellow;
-  font-size: 1vw;
+  color: #FFBE24;
+  font-size: 1.5vw;
 }
 
 * {box-sizing:border-box}
